@@ -48,3 +48,34 @@ section {
     padding: 5px;
     font-size: 20px;
 }
+
+
+@media screen and (max-width: 450px) and (min-width: 280px) {
+    .container-first {
+        width: 50vh;
+        height: 100vh;
+
+        margin-top: 250px;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-first h1 {
+        text-align: center;
+    }
+
+    .container-profiles {
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .container-profiles div {
+        margin-bottom: 20px;
+    }
+
+
+
+}
